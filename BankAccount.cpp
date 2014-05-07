@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : BankAccount.cpp
-// Author      : 
+// Author      : Barney
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Test class for bank account class
 //============================================================================
 
 #include "bankAccount.h"
