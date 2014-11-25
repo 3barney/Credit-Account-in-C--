@@ -11,4 +11,5 @@ public:
 
 private:
 	int accountBalance;
+	float defaultValue = 0.0;
 };
