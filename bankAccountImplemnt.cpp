@@ -16,7 +16,15 @@ BankAccount::BankAccount( int balance )
 
 int BankAccount::getAccountBalance()
 {
-	return accountBalance;
+	//return accountBalance;
+	if (accountBalance >= 0)
+	{
+		return accountBalance;
+	}
+	else if (accountBalance <= 0)
+	{
+		return defaultValue;
+	}
 }
 
 void BankAccount::credit(int credit)
